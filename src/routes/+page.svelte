@@ -25,62 +25,91 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Delphi creates interactive digital replicas of coaches and consultants, trained on their complete knowledge base to deliver personalized mentorship at scale. Whether through voice calls, video chat, or text, your digital mentor authentically mirrors your expertise and personality, guiding thousands of clients simultaneously. This means you can monetize your knowledge without trading hours for dollars, while your audience receives the personalized guidance they need, exactly when they need it."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Mehta",
+			position: "Executive Coach",
+			company: "Catalyst Coaching",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I was spending 40 hours a week on one-on-one calls and turning away clients. My Delphi clone now handles 200+ personalized conversations monthly while I focus on my flagship programs. It's like hiring 10 versions of myself without the overhead.",
+			image: "/generated/image-professional-confident-female-life-coach.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Thompson",
+			position: "Business Consultant",
+			company: "Thompson Advisory",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"My expertise was trapped in my calendar at $500 per hour. Delphi freed me to serve 15,000 followers with personalized guidance 24/7. I tripled my revenue while cutting my consulting hours by 60%. The ROI was immediate.",
+			image: "/generated/image-professional-male-business-consultant-he.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Elena Rodriguez",
+			position: "Wellness Course Creator",
+			company: "Mindful Living Academy",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Student questions were overwhelming my inbox and delaying course launches. My digital mentor now provides instant, personalized support that sounds exactly like me. My completion rates jumped 45% and I launched two new programs this quarter.",
+			image: "/generated/image-professional-female-wellness-expert-head.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Mentorship that scales infinitely"
+	subtitle="Transform your expertise into an interactive digital mentor that delivers authentic, personalized guidance to thousands simultaneously."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Voice and video authenticity",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Your digital mentor speaks, responds, and engages through natural voice calls and video chat that authentically mirror your unique speaking style and personality."
 		},
 		{
-			title: "Data Analysis",
+			title: "Infinite personalization",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Deliver tailored guidance to thousands of individuals simultaneously, each receiving responses calibrated to their specific context and needs."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Knowledge continuity",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Preserve and scale your complete expertise so your wisdom remains accessible and actionable, transcending time and geographic boundaries."
+		},
+		{
+			title: "Monetize without limits",
+			description:
+				"Generate revenue from your expertise 24/7 without trading hours for dollars, freeing you to focus on high-impact work that matters most."
+		},
+		{
+			title: "Audience intelligence",
+			description:
+				"Understand patterns in the questions and challenges your audience faces, enabling you to refine your offerings and create more relevant content."
+		},
+		{
+			title: "Seamless integration",
+			description:
+				"Deploy your digital mentor across existing platforms and workflows, meeting your audience where they already engage with your content."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop trading hours for dollars"
+	subtitle="Your digital mentor launches in 48 hours"
+	description="Join 847 coaches and consultants who scaled their expertise to thousands of clients without adding a single hour to their calendar. Your audience wants personalized guidance now, not when your calendar opens up three weeks from today."
+	imageSrc="/generated/image-a-confident-professional-coach-sits-comf.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Build your digital mentor",
+			variant: "primary"
+		},
+		{
+			href: "/examples",
+			label: "See it in action",
+			variant: "secondary"
+		}
+	]}
+/>
